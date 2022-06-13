@@ -12,6 +12,9 @@ document.getElementById('visits').innerText = response.value;
 </script>
 <script async src="https://api.countapi.xyz/hit/azordon.cf/visits?callback=cb"></script>
 <style>
+.fonted {
+	color: white;
+}
 </style>
 </head>
 <title>Zordon Official Site</title>
@@ -24,14 +27,16 @@ document.getElementById('visits').innerText = response.value;
     <a href="https://web.azordon.cf/about.html">About</a>
     <a href="https://web.azordon.cf/projects.html">My Github Repos</a>
     <a href="http://forum.azordon.cf/">Forum</a>
-    <form action="http://a70.azordon.cf/login.php" method="post">
-        Username:<br /> <input type="text" name="user" /> <br />
-        Password: <br /> <input type="Password" name="Password" /> <br /><br />
-        <input class="button2" type="submit" value="Login in" /> 
-	</form>
   </div>>
 
 <div class="welcome">
+	<form action="http://a70.azordon.cf/login.php" method="post">
+        Username:<br /> <input class="welcome" type="text" name="user" /> 
+		<p><p>
+		Password: <br /> <input class="welcome" type="Password" name="Password" /> <br /> 
+		<input type="submit" value="Login in" /> 
+	</form>
+
 
 <h1>Welcome on my site here you can</h1>
 <p>download my roms</p>
