@@ -24,6 +24,11 @@ document.getElementById('visits').innerText = response.value;
     <a href="https://web.azordon.cf/about.html">About</a>
     <a href="https://web.azordon.cf/projects.html">My Github Repos</a>
     <a href="http://forum.azordon.cf/">Forum</a>
+    <form action="http://a70.azordon.cf/login.php" method="post">
+        Username:<br /> <input type="text" name="user" /> <br />
+        Password: <br /> <input type="Password" name="Password" /> <br /><br />
+        <input class="button2" type="submit" value="Login in" /> 
+	</form>
   </div>>
 
 <div class="welcome">
